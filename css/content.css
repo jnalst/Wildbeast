@@ -1,0 +1,86 @@
+ .content {
+    grid-area: content;
+    max-width: 90rem;
+    margin: 0 auto;
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+
+}
+
+.imagem-1{
+    grid-row: span 2;
+    align-self: end;
+}
+
+.item-2{
+align-self: end;
+}
+
+/* ESTILO CONTENT */
+
+.content p{
+    font-size: 1.8rem;
+    line-height: 1.6;
+    letter-spacing: -0.005em;
+    color: #000000b3;
+}
+
+.informacoes p + p {
+    margin-top: 3rem;
+}
+
+.titulo{
+    color: #b07dfb;
+}
+
+.titulo h1{
+    font-size: 5.4rem;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.titulo span{
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.caracter{
+    display: flex;
+    align-items: flex-start;
+}
+
+.caracter > div {
+    width: 8rem;
+    text-align: center;
+    background: var(--gradientcolor);
+    border-radius: 0.5rem;
+    box-shadow: 0.5rem 0.5rem 1.5rem 0rem rgba(44,44,44,0.15);
+    position: relative;
+}
+
+.caracter > div:first-child{
+    margin-right: 3rem;
+}
+
+.caracter span {
+    display: block;
+    color: #b07dfb;
+}
+
+.numero {
+    color: #b07dfb;
+    font-size: 4.8rem;
+    line-height: 1;
+    margin-top: 10px auto;
+}
+
+.rotulo {
+    background: white;
+    border-radius: 0 0 0.5rem 0.5rem;
+    padding: 0.5rem 0;
+    font-size: 1.6rem;
+    position: relative;
+    top: 2px;
+}

@@ -1,0 +1,12 @@
+footer {
+    grid-area: footer;
+    background: var(--gradientcolor);
+
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 3rem;
+}

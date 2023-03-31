@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,700;1,400&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  font-size: 62.5%;
+  /* 1 rem = 10px */
+
+  --gradientcolor: linear-gradient(135deg, #8844ee, #B07Dfb);
+}
+
+.col-wide{
+    grid-column: 1 / -1;
+}
+
+
+body,
+p,
+h1,
+ul,
+li,
+blockquote {
+  padding: 0rem;
+  margin: 0rem;
+}
+
+body {
+  font-family: "Vollkorn", Georgia, "Times New Roman", Times, serif;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  border-radius: 1rem;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: minmax(160px, 1fr) 3fr 300px;
+  grid-template-areas:
+    "header header header"
+    "sidenav content anuncios"
+    "footer footer footer";
+}

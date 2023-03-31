@@ -1,0 +1,21 @@
+.sidenav{
+    grid-area: sidenav;
+    background: #fafbfc;
+    padding: 3rem;
+}
+
+.sidenav li a{
+    display: block;
+    min-width: 6rem;
+    max-width: 10rem;
+    margin: 0 auto 3rem auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.5rem 0.5rem 1.5rem 0rem rgba(44,44,44,0.15);
+    transition: 0.1s ease-out;
+}
+
+.sidenav li a:hover{
+    background: #b07dfb;
+}
