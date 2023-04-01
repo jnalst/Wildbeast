@@ -10,21 +10,21 @@
 }
 
 .imagem-1{
+    align-self: end;
     grid-row: span 2;
     align-self: end;
 }
 
-.item-2{
-align-self: end;
-}
+
 
 /* ESTILO CONTENT */
 
-.content p{
+ p{
     font-size: 1.8rem;
     line-height: 1.6;
     letter-spacing: -0.005em;
     color: #000000b3;
+
 }
 
 .informacoes p + p {
@@ -49,6 +49,7 @@ align-self: end;
 .caracter{
     display: flex;
     align-items: flex-start;
+
 }
 
 .caracter > div {
@@ -66,11 +67,11 @@ align-self: end;
 
 .caracter span {
     display: block;
-    color: #b07dfb;
+    color: #622eb1;
 }
 
 .numero {
-    color: #b07dfb;
+    color: #a16df0;
     font-size: 4.8rem;
     line-height: 1;
     margin-top: 10px auto;
@@ -83,4 +84,39 @@ align-self: end;
     font-size: 1.6rem;
     position: relative;
     top: 2px;
+}
+
+.destaque{
+    font-size: 1.6rem;
+    color: #8844ee;
+    max-width: 25.6rem;
+}
+
+.citacao, .atributos {
+    align-self: start;
+    padding: 3rem;
+    border-radius: .5rem;
+    box-shadow: .5rem .5rem 1.5rem 0rem rgba(44,44,44,0.15);
+    background: linear-gradient(135deg, #8844ee, #b07dfb);
+}
+
+.citacao p{
+    font-size: 2.2rem;
+    font-style: italic;
+    text-align: center;
+    max-width: 50rem;
+    margin: 0 auto;
+    color: white;
+}
+
+.atributos li {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.8rem;
+    padding: 1.5rem;
+    border-bottom: 2px;
+}
+
+.atributos li + li{
+    border-top: 2px solid #b07dfb ;
 }

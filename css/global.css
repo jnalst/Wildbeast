@@ -52,3 +52,26 @@ a {
     "sidenav content anuncios"
     "footer footer footer";
 }
+
+@media screen and (max-width: 1200px) {
+  .container {
+    grid-template-areas: 
+    "header header header"
+    "sidenav content content"
+    "sidenav anuncios anuncios"
+    "footer footer footer";
+      ;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .container {
+    grid-template-areas: 
+    "header header header"
+    "sidenav sidenav sidenav"
+    "content content content"
+    "anuncios anuncios anuncios"
+    "footer footer footer";
+      ;
+  }
+}
